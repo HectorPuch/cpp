@@ -3,7 +3,7 @@
 
 
 
-This repository contains practical exercises for the Structured Programming in C++ course in the Associate's Degree in Network Computer Systems Administration with a professional Cyber Security profile at ENTI (Escola de Noves Tecnologies Interactives).
+This repository contains practical exercises for the Structured Programming course in the Associate's degree in Network Computer Systems Administration with a professional Cyber Security profile at ENTI (Escola de Noves Tecnologies Interactives).
 
 
 
