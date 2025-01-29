@@ -2,12 +2,13 @@
 
 int main() {
 
-	int matrix[] = {1, 2, 3, 4};
 	const int length = 4;
 
+	int array[length] = {};
+	
 	for (int i = 0; i < length; i++)
 	{
-		std::cout << matrix[i];
+		std::cout << i << " ";
 	}
 
 	return 0;
