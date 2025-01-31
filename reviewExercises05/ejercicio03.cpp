@@ -4,7 +4,7 @@ int main() {
 
 	const int length = 5;
 
-	int array[5];
+	int array[length];
 	
 	// Creamos un bucle for que itere 5 veces para que el usuario introduzca 5 números
 	for (int i = 0; i < length; i++)
