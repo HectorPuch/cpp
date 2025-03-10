@@ -5,7 +5,7 @@ int main() {
 
 	srand(time(NULL));
 
-	int num1 = rand() % 9 + 1, num2 = rand() % 10 + 1;
+	int num1 = rand() % 10 + 1, num2 = rand() % 10 + 1;
 	int resultado;
 
 	std::cout << "Cual es el resultado de multiplicar " << num1 << " * " << num2 << " ?\n";
