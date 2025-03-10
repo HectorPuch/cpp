@@ -4,6 +4,7 @@
 int main() {
 
 	std::string ingrediente1 = "Hamburguesa", ingrediente2 = "Queso", ingrediente3 = "Lechuga", ingrediente4 = "Tomate", ingrediente5 = "Cebolla", ingrediente6 = "Bacon";
+	
 	bool seleccionado1, seleccionado2, seleccionado3, seleccionado4, seleccionado5, seleccionado6;
 
 	std::cout << "Seleccione los ingredientes que desea (con un 1) y los que no (con un 0).\n";
