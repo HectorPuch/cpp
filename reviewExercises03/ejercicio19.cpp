@@ -2,21 +2,21 @@
 
 int main() {
 
-	std::string user = "Tr4ianus", password = "Roma12345.";
+	std::string username = "Tr4ianus", password = "Roma12345.";
 
-	std::string inputUser, inputPassword;
+	std::string inputUsername, inputPassword;
 
 	std::cout << "Introduzca su nombre de usuario: ";
-	std::cin >> inputUser;
+	std::cin >> inputUsername;
 
 	std::cout << "Introduzca su contraseña: ";
 	std::cin >> inputPassword;
 
-	if (inputUser == user && inputPassword == password)
+	if (inputUsername == username && inputPassword == password)
 	{
 		std::cout << "Ha introducido correctamente su nombre de usuario y contraseña.\n";
 	}
-	else if (inputUser != user)
+	else if (inputUsername != username)
 	{
 		std::cout << "Nombre de usuario incorrecto.\n";
 	}
