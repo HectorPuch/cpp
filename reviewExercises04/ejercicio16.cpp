@@ -7,9 +7,9 @@ int main() {
 	std::cout << "Introduzca un numero: ";
 	std::cin >> userNumber;
 
-	while (userNumber < 0)
+	while (userNumber <= 0)
 	{
-		std::cout << "No se pueden añadir numeros negativos!\n";
+		std::cout << "No se puede añadir un 0 o numeros negativos!\n";
 		std::cout << "Introduzca un numero: ";
 		std::cin >> userNumber;
 	}
