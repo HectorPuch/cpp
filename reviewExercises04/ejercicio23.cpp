@@ -63,6 +63,16 @@ int main() {
 
     std::cout << "Victorias del Jugador: " << playerWins << std::endl;
     std::cout << "Victorias de la Maquina: " << machineWins << std::endl;
+    std::cout << std::endl;
+
+    if (playerWins > machineWins)
+    {
+        std::cout << "Ha ganado el Jugador!\n";
+    }
+    else
+    {
+        std::cout << "Ha ganado la Maquina!\n";
+    }
 
     return 0;
 }
