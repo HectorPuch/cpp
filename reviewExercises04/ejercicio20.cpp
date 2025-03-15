@@ -4,7 +4,7 @@ int main() {
 
 	int numeroUsuario, numeroMayor, numeroMenor, contador = 0;
 
-	bool continuar = true;
+	int continuar ;
 
 	do
 	{
@@ -15,6 +15,14 @@ int main() {
 		std::cout << "0 - Salir.\n";
 		std::cout << "1 - Continuar.\n";
 		std::cin >> continuar;
+
+		while (continuar < 0 || continuar > 1)
+		{
+			std::cout << "Numero incorrecto!\n";
+			std::cout << "0 - Salir.\n";
+			std::cout << "1 - Continuar.\n";
+			std::cin >> continuar;
+		}
 
 		if (contador == 0)
 		{
@@ -33,7 +41,7 @@ int main() {
 
 		contador++;
 
-	} while (continuar);
+	} while (continuar == 1);
 
 	std::cout << "Este es el numero mayor: " << numeroMayor << std::endl;
 	std::cout << "Este es el numero menor: " << numeroMenor << std::endl;
