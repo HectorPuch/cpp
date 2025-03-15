@@ -4,7 +4,7 @@ int main() {
 
 	int numeroUsuario, numeroMayor, numeroMenor, contador = 0;
 
-	int continuar ;
+	int continuar = 1;
 
 	do
 	{
