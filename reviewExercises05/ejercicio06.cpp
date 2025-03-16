@@ -1,5 +1,4 @@
 #include <iostream>
-#include <array>
 
 #define LENGTH 5
 
