@@ -6,7 +6,7 @@ int main() {
 
 	int array[LENGTH];
 
-	// Pedimos un número para cada posición del array y multiplicarlo por su índice
+	// Pedimos un número para cada posición del array y multiplicamos por su índice
 	for (int i = 0; i < LENGTH; i++)
 	{
 		std::cout << "Introduzca un numero para la posicion " << i << ": ";
